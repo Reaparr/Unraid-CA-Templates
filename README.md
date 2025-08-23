@@ -1,1 +1,1 @@
-# PlexRipper-Unraid-CA-Templates
+# Unraid-CA-Templates
