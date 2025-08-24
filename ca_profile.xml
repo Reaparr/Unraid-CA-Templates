@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maintainer>
-  <Icon></Icon>
+  <Icon>https://avatars.githubusercontent.com/u/15127381</Icon>
   <Profile>
-    Currently working hard on developing PlexRipper! Let me know if you have any ideas or feedback on how to make it even more awesome!
+    Currently working hard on developing Reaparr! Let me know if you have any ideas or feedback on how to make it even more awesome!
   </Profile>
   <WebPage>https://github.com/JasonLandbridge</WebPage>
-  <DonateLink></DonateLink>
-  <DonateText></DonateText>
+  <DonateLink>https://github.com/sponsors/JasonLandbridge</DonateLink>
+  <DonateText>Consider throwing money at me to get all your wishes granted!</DonateText>
 </Maintainer>
