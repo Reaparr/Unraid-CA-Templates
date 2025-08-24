@@ -1,37 +1,37 @@
 <?xml version="1.0"?>
 <Container version="2">
-	<Name>PlexRipper</Name>
-	<Repository>plexripper/plexripper</Repository>
-	<Registry>https://hub.docker.com/r/plexripper/plexripper/</Registry>
+	<Name>Reaparr</Name>
+	<Repository>reaparr/reaparr</Repository>
+	<Registry>https://hub.docker.com/r/reaparr/reaparr/</Registry>
 	<Network>bridge</Network>
 	<MyIP/>
 	<Shell>sh</Shell>
 	<Privileged>false</Privileged>
-	<Support>https://github.com/PlexRipper/PlexRipper/issues</Support>
-	<GitHub>https://github.com/PlexRipper/PlexRipper/</GitHub>
-	<ReadMe>https://github.com/PlexRipper/PlexRipper/#readme</ReadMe>
+	<Support>https://github.com/Reaparr/Reaparr/issues</Support>
+	<GitHub>https://github.com/Reaparr/Reaparr/</GitHub>
+	<ReadMe>https://github.com/Reaparr/Reaparr/#readme</ReadMe>
 	<Branch>
 		<Tag>latest</Tag>
-		<TagDescription>Stable PlexRipper releases</TagDescription>
+		<TagDescription>Stable Reaparr releases</TagDescription>
 	</Branch>
 	<Branch>
 		<Tag>dev</Tag>
-		<TagDescription>Development PlexRipper releases (may include experimental features or bugs)</TagDescription>
+		<TagDescription>Development Reaparr releases (may include experimental features or bugs)</TagDescription>
 	</Branch>
-	<Project>https://plexripper.rocks</Project>
+	<Project>https://reaparr.rocks</Project>
 	<Overview>A cross-platform Plex media downloader that seamlessly adds media from other Plex servers to your own!</Overview>
 	<Category>Backup: Downloaders: MediaApp:Video MediaApp:Music MediaApp:Photos MediaApp:Other</Category>
 	<WebUI>http://[IP]:[PORT:7000]/</WebUI>
-	<TemplateURL>https://raw.githubusercontent.com/PlexRipper/PlexRipper-Unraid-CA-Templates/refs/heads/master/PlexRipper-latest/filename.xml</TemplateURL>
-	<Icon>https://raw.githubusercontent.com/PlexRipper/PlexRipper/master/export/plexripper/logo/full/full-logo-256.png</Icon>
+	<TemplateURL>https://raw.githubusercontent.com/Reaparr/Unraid-CA-Templates/refs/heads/master/template/filename.xml</TemplateURL>
+	<Icon>https://raw.githubusercontent.com/Reaparr/Reaparr/dev/export/reaparr/logo/reaparr-full.svg</Icon>
 	<ExtraParams/>
 	<PostArgs/>
 	<CPUset/>
 	<Date>2025-01-19</Date>
 	<DateInstalled>1608413914</DateInstalled>
-	<DonateText/>
-	<DonateLink/>
-	<Description>A cross-platform Plex media downloader that seamlessly adds media from other Plex servers to your own!	Visit www.plexripper.rocks for more info!</Description>
+	<DonateText>Donations helps us keep the scythe sharp: adding new features, squashing bugs, and making sure the reaping never stops.</DonateText>
+	<DonateLink>https://github.com/sponsors/Reaparr</DonateLink>
+	<Description>Reaparr is a cross-platform Plex media downloader that does the boring stuff so you don’t have to. Think of it as your loyal little reaper, quietly harvesting media from other Plex servers and dropping it neatly into your own!</Description>
 	<Networking>
 		<Mode>bridge</Mode>
 		<Publish>
