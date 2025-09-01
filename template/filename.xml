@@ -23,7 +23,7 @@
 	<Category>Backup: Downloaders: MediaApp:Video MediaApp:Music MediaApp:Photos MediaApp:Other</Category>
 	<WebUI>http://[IP]:[PORT:7000]/</WebUI>
 	<TemplateURL>https://raw.githubusercontent.com/Reaparr/Unraid-CA-Templates/refs/heads/master/template/filename.xml</TemplateURL>
-	<Icon>https://raw.githubusercontent.com/Reaparr/Reaparr/dev/export/reaparr/logo/reaparr-full.svg</Icon>
+	<Icon>https://raw.githubusercontent.com/Reaparr/Reaparr/dev/export/reaparr/logo/reaparr-full-128.png</Icon>
 	<ExtraParams/>
 	<PostArgs/>
 	<CPUset/>
