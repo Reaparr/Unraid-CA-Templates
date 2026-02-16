@@ -24,13 +24,17 @@
 	<WebUI>http://[IP]:[PORT:7000]/</WebUI>
 	<TemplateURL>https://raw.githubusercontent.com/Reaparr/Unraid-CA-Templates/refs/heads/master/template/filename.xml</TemplateURL>
 	<Icon>https://raw.githubusercontent.com/Reaparr/Reaparr/dev/export/reaparr/logo/reaparr-full-128.png</Icon>
+	<Screenshot>https://raw.githubusercontent.com/Reaparr/Unraid-CA-Templates/refs/heads/master/screenshots/demo-1-login-screen.avif</Screenshot>
+	<Screenshot>https://raw.githubusercontent.com/Reaparr/Unraid-CA-Templates/refs/heads/master/screenshots/demo-3-movies-library-1-poster-table.avif</Screenshot>
+	<Screenshot>https://raw.githubusercontent.com/Reaparr/Unraid-CA-Templates/refs/heads/master/screenshots/demo-4-tv-show-library-1-download-confirmation.avif</Screenshot>
+	<Screenshot>https://raw.githubusercontent.com/Reaparr/Unraid-CA-Templates/refs/heads/master/screenshots/demo-7-download-screen.avif</Screenshot>
 	<ExtraParams/>
 	<PostArgs/>
 	<CPUset/>
 	<Date>2025-01-19</Date>
 	<DateInstalled>1608413914</DateInstalled>
 	<DonateText>Donations helps us keep the scythe sharp: adding new features, squashing bugs, and making sure the reaping never stops.</DonateText>
-	<DonateLink>https://github.com/sponsors/Reaparr</DonateLink>
+	<DonateLink>https://www.reaparr.rocks/donate</DonateLink>
 	<Description>Reaparr is a cross-platform Plex media downloader that does the boring stuff so you don’t have to. Think of it as your loyal little reaper, quietly harvesting media from other Plex servers and dropping it neatly into your own!</Description>
 	<Networking>
 		<Mode>bridge</Mode>
