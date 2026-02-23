@@ -87,10 +87,11 @@
 	<Config Name="Movie Destination Folder (Container Path: /Movies)" Target="/Movies" Default="" Mode="rw" Description="Default folder for Movies that have finished downloading" Type="Path" Display="always" Required="true" Mask="false"/>
 	<Config Name="Tv-Show Destination Folder (Container Path: /TvShows)" Target="/TvShows" Default="" Mode="rw" Description="Default folder for TvShows that have finished downloading" Type="Path" Display="always" Required="true" Mask="false"/>
 	<Config Name="Music Destination Folder (Container Path: /Music)" Target="/Music" Default="" Mode="rw" Description="(NOT IN USE YET) Default folder for Music that have finished downloading" Type="Path" Display="always" Required="false" Mask="false"/>
-	<Config Name="Photos Destination Folder (Container Path: /Photos)" Target="/Photos" Default="" Mode="rw" Description="(NOT IN USE YET) Default folder for Music that have finished downloading" Type="Path" Display="always" Required="false" Mask="false"/>
+	<Config Name="Photos Destination Folder (Container Path: /Photos)" Target="/Photos" Default="" Mode="rw" Description="(NOT IN USE YET) Default folder for Photos that have finished downloading" Type="Path" Display="always" Required="false" Mask="false"/>
 	<Config Name="Other Destination Folder (Container Path: /Other)" Target="/Other" Default="" Mode="rw" Description="(NOT IN USE YET) Default folder for unknown media that have finished downloading" Type="Path" Display="always" Required="false" Mask="false"/>
 	<Config Name="PUID" Target="PUID" Default="99" Mode="" Description="UserID which is used for setting file permissions" Type="Variable" Display="advanced" Required="true" Mask="false">99</Config>
 	<Config Name="PGID" Target="PGID" Default="100" Mode="" Description="GroupID which is used for setting file permissions" Type="Variable" Display="advanced" Required="true" Mask="false">100</Config>
 	<Config Name="UNMASKED" Target="UNMASKED" Default="false" Mode="" Description="Unmask sensitive data in logs if true" Type="Variable" Display="advanced" Required="false" Mask="false">false</Config>
 	<Config Name="LOG_LEVEL" Target="LOG_LEVEL" Default="DEBUG" Mode="" Description="Set the minimum logging level to show in the docker container, [VERBOSE | DEBUG | INFORMATION | WARNING | ERROR | FATAL]" Type="Variable" Display="advanced" Required="false" Mask="false">DEBUG</Config>
+	<Config Name="SEQ_URL" Target="SEQ_URL" Default="" Mode="" Description="Add a SEQ url to send Reaparr logs to" Type="Variable" Display="advanced" Required="false" Mask="false" />
 </Container>
