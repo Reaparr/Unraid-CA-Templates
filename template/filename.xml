@@ -114,5 +114,9 @@
 	<Config Name="UMASK" Target="UMASK" Default="002" Mode="" Description="Controls permissions for newly created files and folders. Default 002 creates files as 0664 and folders as 0775." Type="Variable" Display="advanced" Required="false" Mask="false">002</Config>
 	<Config Name="UNMASKED" Target="UNMASKED" Default="false" Mode="" Description="Unmask sensitive data in logs if true" Type="Variable" Display="advanced" Required="false" Mask="false">false</Config>
 	<Config Name="LOG_LEVEL" Target="LOG_LEVEL" Default="DEBUG" Mode="" Description="Set the minimum logging level to show in the docker container, [VERBOSE | DEBUG | INFORMATION | WARNING | ERROR | FATAL]" Type="Variable" Display="advanced" Required="false" Mask="false">DEBUG</Config>
+	<Config Name="LOG_ENV_VARS" Target="LOG_ENV_VARS" Default="false" Mode="" Description="Log environment variables at startup" Type="Variable" Display="advanced" Required="false" Mask="false">false</Config>
 	<Config Name="SEQ_URL" Target="SEQ_URL" Default="" Mode="" Description="Add a SEQ url to send Reaparr logs to" Type="Variable" Display="advanced" Required="false" Mask="false" />
+	<Config Name="SEQ_API_KEY" Target="SEQ_API_KEY" Default="" Mode="" Description="API key for the configured Seq instance" Type="Variable" Display="advanced" Required="false" Mask="true"/>
+	<Config Name="GITHUB_TOKEN" Target="GITHUB_TOKEN" Default="" Mode="" Description="Optional GitHub token used by Reaparr to poll for update on new releases" Type="Variable" Display="advanced" Required="false" Mask="true"/>
+	<Config Name="I_AM_DUMB_SO_DISABLE_AUTHENTICATION" Target="I_AM_DUMB_SO_DISABLE_AUTHENTICATION" Default="false" Mode="" Description="[NOT RECOMMENDED] Disables authentication. Make sure to not expose Reaparr to the public internet!" Type="Variable" Display="advanced" Required="false" Mask="false">false</Config>
 </Container>
