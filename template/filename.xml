@@ -67,6 +67,21 @@
 			<ContainerDir>/TvShows</ContainerDir>
 			<Mode>rw</Mode>
 		</Volume>
+		<Volume>
+			<HostDir/>
+			<ContainerDir>/Music</ContainerDir>
+			<Mode>rw</Mode>
+		</Volume>
+		<Volume>
+			<HostDir/>
+			<ContainerDir>/Photos</ContainerDir>
+			<Mode>rw</Mode>
+		</Volume>
+		<Volume>
+			<HostDir/>
+			<ContainerDir>/OtherVideos</ContainerDir>
+			<Mode>rw</Mode>
+		</Volume>
 	</Data>
 	<Environment>
 		<Variable>
@@ -91,9 +106,9 @@
 	<Config Name="Download Folder (Container Path: /Downloads)" Target="/Downloads" Default="" Mode="rw" Description="All in progress downloads will be temporarily stored here" Type="Path" Display="always" Required="true" Mask="false"/>
 	<Config Name="Movie Destination Folder (Container Path: /Movies)" Target="/Movies" Default="" Mode="rw" Description="Default folder for Movies that have finished downloading" Type="Path" Display="always" Required="true" Mask="false"/>
 	<Config Name="Tv-Show Destination Folder (Container Path: /TvShows)" Target="/TvShows" Default="" Mode="rw" Description="Default folder for TvShows that have finished downloading" Type="Path" Display="always" Required="true" Mask="false"/>
-	<Config Name="Music Destination Folder (Container Path: /Music)" Target="/Music" Default="" Mode="rw" Description="(NOT IN USE YET) Default folder for Music that have finished downloading" Type="Path" Display="always" Required="false" Mask="false"/>
-	<Config Name="Photos Destination Folder (Container Path: /Photos)" Target="/Photos" Default="" Mode="rw" Description="(NOT IN USE YET) Default folder for Photos that have finished downloading" Type="Path" Display="always" Required="false" Mask="false"/>
-	<Config Name="Other Destination Folder (Container Path: /Other)" Target="/Other" Default="" Mode="rw" Description="(NOT IN USE YET) Default folder for unknown media that have finished downloading" Type="Path" Display="always" Required="false" Mask="false"/>
+	<Config Name="Music Destination Folder (Container Path: /Music)" Target="/Music" Default="" Mode="rw" Description="Default folder for Music that have finished downloading" Type="Path" Display="always" Required="false" Mask="false"/>
+	<Config Name="Photos Destination Folder (Container Path: /Photos)" Target="/Photos" Default="" Mode="rw" Description="Default folder for Photos that have finished downloading" Type="Path" Display="always" Required="false" Mask="false"/>
+	<Config Name="Other Destination Folder (Container Path: /OtherVideos)" Target="/OtherVideos" Default="" Mode="rw" Description="Default folder for other videos that have finished downloading" Type="Path" Display="always" Required="false" Mask="false"/>
 	<Config Name="PUID" Target="PUID" Default="99" Mode="" Description="UserID which is used for setting file permissions" Type="Variable" Display="advanced" Required="true" Mask="false">99</Config>
 	<Config Name="PGID" Target="PGID" Default="100" Mode="" Description="GroupID which is used for setting file permissions" Type="Variable" Display="advanced" Required="true" Mask="false">100</Config>
 	<Config Name="UMASK" Target="UMASK" Default="002" Mode="" Description="Controls permissions for newly created files and folders. Default 002 creates files as 0664 and folders as 0775." Type="Variable" Display="advanced" Required="false" Mask="false">002</Config>
